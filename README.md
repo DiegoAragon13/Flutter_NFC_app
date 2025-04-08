@@ -1,16 +1,19 @@
-# nfc
+# Flutter NFC App
 
-A new Flutter project.
+This Flutter application demonstrates how to use Near Field Communication (NFC) technology to interact with NFC-enabled devices. The app allows users to read and write data to NFC tags seamlessly, making it suitable for various use cases like contactless payments, access control, and event check-ins.
 
-## Getting Started
+## Features
+- **Read NFC Tags**: Scan and read data from NFC tags.
+- **Write to NFC Tags**: Write data to compatible NFC tags.
+- **Cross-platform Support**: Works on both Android and iOS (with some limitations on iOS).
+- **Background Scanning**: NFC scanning continues while the app is running in the background.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- Flutter
+- `flutter_nfc_kit` (or another NFC plugin)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+To run this project locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DiegoAragon13/Flutter_NFC_app.git
